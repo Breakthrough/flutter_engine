@@ -172,6 +172,7 @@ template("runner_sources") {
              "$fuchsia_sdk_root/pkg:trace-engine",
              "$fuchsia_sdk_root/pkg:trace-provider-so",
              "$fuchsia_sdk_root/pkg:vfs_cpp",
+             "$fuchsia_sdk_root/pkg:vfs_internal",
              "$fuchsia_sdk_root/pkg:zx",
              "//flutter/shell/platform/fuchsia/dart-pkg/fuchsia",
              "//flutter/shell/platform/fuchsia/dart-pkg/zircon",
